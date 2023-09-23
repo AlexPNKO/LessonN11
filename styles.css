@@ -1,0 +1,8 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+div:nth-child(1) {
+  visibility: hidden;
+}
