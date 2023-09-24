@@ -1,3 +1,4 @@
+/* ---lesson-task-1---
 .container div:nth-child(1) {
   display: none;
 }
@@ -6,4 +7,4 @@
 }
 .container div:nth-child(3) {
   visibility: visible;
-}
+} */
