@@ -92,3 +92,12 @@ h4 {
 .text:hover .tooltip {
   visibility: visible;
 } */
+/* ---lesson-hw-2---
+.gallery {
+  display: flex;
+  overflow-x: auto;
+  cursor: all-scroll;
+}
+.thumb {
+  margin: 8px;
+} */
