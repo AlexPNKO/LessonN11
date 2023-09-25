@@ -32,7 +32,7 @@
   overflow: auto;
   cursor: all-scroll;
 } */
-/* ---lesson-task-3--- */
+/* ---lesson-task-3---
 .dropdown {
   margin: 16px;
   display: inline-block;
@@ -68,4 +68,27 @@
 }
 .menu-item:hover {
   background-color: ghostwhite;
+} */
+/* ---lesson-hw-1---
+.text {
+  margin: 16px;
+  display: inline-block;
+  cursor: pointer;
 }
+h4 {
+  border-bottom: 1px dotted black;
+  margin: 0;
+}
+.tooltip {
+  background-color: grey;
+  color: white;
+  border-radius: 4px;
+  padding: 8px;
+  position: relative;
+  bottom: -4px;
+  display: flex;
+  visibility: hidden;
+}
+.text:hover .tooltip {
+  visibility: visible;
+} */
