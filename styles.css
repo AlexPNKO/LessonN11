@@ -8,3 +8,64 @@
 .container div:nth-child(3) {
   visibility: visible;
 } */
+/* ---lesson-task-2---
+* {
+  box-sizing: border-box;
+}
+.articles {
+  display: flex;
+}
+.articles div {
+  height: 100px;
+  width: 150px;
+  background-color: cornflowerblue;
+  margin: 16px;
+}
+.cropped {
+  overflow: hidden;
+}
+.both-scrolls {
+  overflow: scroll;
+  cursor: all-scroll;
+}
+.vertical-scroll {
+  overflow: auto;
+  cursor: all-scroll;
+} */
+/* ---lesson-task-3--- */
+.dropdown {
+  margin: 16px;
+  display: inline-block;
+}
+.menu-button {
+  padding: 16px;
+  background-color: darkgreen;
+  opacity: 0.8;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+}
+.menu-button:hover {
+  opacity: 1;
+}
+.menu-list {
+  margin: 0;
+  padding: 0;
+  background-color: lightcyan;
+  color: black;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  min-width: 120px;
+  z-index: 1;
+  list-style-type: none;
+  visibility: hidden;
+}
+.dropdown:hover .menu-list {
+  visibility: visible;
+}
+.menu-item {
+  padding: 16px;
+}
+.menu-item:hover {
+  background-color: ghostwhite;
+}
